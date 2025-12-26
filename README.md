@@ -34,7 +34,7 @@ Após abrir o Termux, execute:
 ```bash
 pkg update && pkg upgrade -y
 pkg install php android-tools -y
-
+```
 
 ---
 
@@ -53,23 +53,23 @@ pkg install php android-tools -y
 
 
 
-adb pair localhost:PORTA CODIGO
+```adb pair localhost:PORTA CODIGO```
 
 Exemplo:
 
-adb pair localhost:37199 123456
+```adb pair localhost:37199 123456```
 
 5. Conecte ao dispositivo:
 
 
 
-adb connect localhost:PORTA_ATUALIZADA
+```adb connect localhost:PORTA_ATUALIZADA```
 
 6. Verifique a conexão:
 
 
 
-adb devices
+```adb devices```
 
 Saída esperada:
 
@@ -82,7 +82,7 @@ localhost:PORTA    device
 
 Coloque o arquivo lcffz_android.php na pasta desejada e execute:
 
-php lcffz_android.php
+```php lcffz_android.php```
 
 Selecione:
 
