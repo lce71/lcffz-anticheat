@@ -53,23 +53,31 @@ pkg install php android-tools -y
 
 
 
-```adb pair localhost:PORTA CODIGO```
+```bash
+adb pair localhost:PORTA CODIGO
+```
 
 Exemplo:
 
-```adb pair localhost:37199 123456```
+```bash
+adb pair localhost:37199 123456
+```
 
 5. Conecte ao dispositivo:
 
 
 
-```adb connect localhost:PORTA_ATUALIZADA```
+```bash
+adb connect localhost:PORTA_ATUALIZADA
+```
 
 6. Verifique a conexão:
 
 
 
-```adb devices```
+```bash
+adb devices
+```
 
 Saída esperada:
 
@@ -82,7 +90,9 @@ localhost:PORTA    device
 
 Coloque o arquivo lcffz_android.php na pasta desejada e execute:
 
-```php lcffz_android.php```
+```bash
+php lcffz_android.php
+```
 
 Selecione:
 
